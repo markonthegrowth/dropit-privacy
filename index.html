@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropit — Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0f0f0f;
+            color: #e0e0e0;
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 28px;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+        .tagline {
+            color: #4fc3f7;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+        .updated {
+            color: #888;
+            font-size: 13px;
+            margin-bottom: 32px;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #2a2a2a;
+            margin: 32px 0;
+        }
+        h2 {
+            font-size: 20px;
+            color: #ffffff;
+            margin: 32px 0 12px;
+        }
+        h3 {
+            font-size: 16px;
+            color: #ccc;
+            margin: 20px 0 8px;
+        }
+        p, li {
+            font-size: 15px;
+            color: #bbb;
+        }
+        ul {
+            padding-left: 20px;
+            margin: 8px 0;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        strong {
+            color: #e0e0e0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 14px;
+        }
+        th {
+            text-align: left;
+            padding: 10px 12px;
+            background: #1a1a1a;
+            color: #4fc3f7;
+            border-bottom: 1px solid #333;
+        }
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #222;
+            color: #bbb;
+        }
+        a {
+            color: #4fc3f7;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="tagline">Dropit — Drop anything. It'll be there when you need it.</p>
+        <p class="updated">Last updated: March 19, 2026</p>
+        <hr>
+
+        <h2>1. Introduction</h2>
+        <p>Dropit ("we", "our", "the Service") is a personal archiving tool operated via Telegram Bot (<a href="https://t.me/motg_drop_link_bot">@motg_drop_link_bot</a>) and Telegram Mini App. This Privacy Policy explains how we collect, use, and protect your information.</p>
+
+        <h2>2. Information We Collect</h2>
+
+        <h3>2.1 Information from Telegram</h3>
+        <ul>
+            <li><strong>Telegram User ID</strong> — to identify your account and separate your data from other users</li>
+            <li><strong>Display name</strong> — to personalize the Mini App experience</li>
+            <li>Messages you send to the bot (URLs, text memos, to-dos)</li>
+        </ul>
+
+        <h3>2.2 Information We Generate</h3>
+        <ul>
+            <li><strong>Metadata</strong> extracted from URLs you share (page title, description, thumbnail via OG tags)</li>
+            <li><strong>AI-generated content</strong>: category classification and one-line summaries of your saved items</li>
+        </ul>
+
+        <h3>2.3 Information We Do NOT Collect</h3>
+        <ul>
+            <li>Phone number</li>
+            <li>Contacts or address book</li>
+            <li>Location data</li>
+            <li>Payment or financial information</li>
+            <li>Cookies or tracking identifiers</li>
+        </ul>
+
+        <h2>3. How We Use Your Information</h2>
+        <p>We use your information solely to:</p>
+        <ul>
+            <li>Save and organize the content you send to the bot</li>
+            <li>Generate AI-powered categorization and summaries</li>
+            <li>Display your archived content in the Telegram Mini App</li>
+            <li>Detect duplicate URLs</li>
+        </ul>
+        <p>We do <strong>not</strong> use your data for advertising, profiling, or sale to third parties.</p>
+
+        <h2>4. Third-Party Services</h2>
+        <p>We use the following third-party services to operate Dropit:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Purpose</th>
+                    <th>Data Shared</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Telegram Bot API</strong></td>
+                    <td>Receive and send messages</td>
+                    <td>Messages you send to the bot</td>
+                </tr>
+                <tr>
+                    <td><strong>Supabase</strong></td>
+                    <td>Database storage</td>
+                    <td>Saved URLs, memos, metadata, user ID</td>
+                </tr>
+                <tr>
+                    <td><strong>Grok API (xAI)</strong></td>
+                    <td>AI categorization &amp; summarization</td>
+                    <td>URL metadata and page content</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Each third-party service is governed by its own privacy policy. We only share the minimum data necessary for each service to function.</p>
+
+        <h2>5. Data Storage &amp; Security</h2>
+        <ul>
+            <li>Your data is stored in a Supabase-hosted PostgreSQL database</li>
+            <li>Data is encrypted in transit (TLS/HTTPS)</li>
+            <li>Access to the database is restricted to the service administrator</li>
+            <li>We do not store your Telegram authentication tokens</li>
+        </ul>
+
+        <h2>6. Data Retention</h2>
+        <ul>
+            <li>Your data is retained as long as you use the Service</li>
+            <li>You may request deletion of all your data at any time by contacting us</li>
+            <li>If you stop using the Service, your data remains stored unless you request deletion</li>
+        </ul>
+
+        <h2>7. Your Rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li><strong>Access</strong> — View all data we store about you (visible in the Mini App)</li>
+            <li><strong>Delete</strong> — Request complete deletion of your data</li>
+            <li><strong>Export</strong> — Request a copy of your data</li>
+        </ul>
+        <p>To exercise these rights, contact us at the email below.</p>
+
+        <h2>8. Children's Privacy</h2>
+        <p>Dropit is not intended for users under the age of 13. We do not knowingly collect information from children.</p>
+
+        <h2>9. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated "Last updated" date.</p>
+
+        <h2>10. Contact</h2>
+        <p>If you have questions about this Privacy Policy, please contact:</p>
+        <ul>
+            <li><strong>Email</strong>: <a href="mailto:markonthegrowth@gmail.com">markonthegrowth@gmail.com</a></li>
+            <li><strong>Telegram</strong>: <a href="https://t.me/mook2mook25">@mook2mook25</a></li>
+        </ul>
+    </div>
+</body>
+</html>
