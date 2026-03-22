@@ -8,7 +8,7 @@ Last updated: March 22, 2026
 
 ## 1. Introduction
 
-Dropit ("we", "our", "the Service") is a personal archiving tool operated via Telegram Bot (@motg_drop_link_bot), Telegram Mini App, and KakaoTalk Channel (Dropit). This Privacy Policy explains how we collect, use, and protect your information.
+Dropit is a personal archiving tool developed by MOTG ("we", "our"), operated via Telegram Bot (@motg_drop_link_bot), Telegram Mini App, and KakaoTalk Channel (Dropit). This Privacy Policy explains how we collect, use, and protect your information.
 
 ## 2. Information We Collect
 
@@ -106,5 +106,6 @@ We may update this Privacy Policy from time to time. Changes will be posted on t
 
 If you have questions about this Privacy Policy, please contact:
 
+- **Company**: MOTG
 - **Email**: markonthegrowth@gmail.com
 - **Telegram**: @mook2mook25
